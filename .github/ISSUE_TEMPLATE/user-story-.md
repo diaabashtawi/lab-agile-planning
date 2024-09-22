@@ -7,18 +7,17 @@ assignees: ''
 
 ---
 
-**As a** Marketing Manager   
- **I need** a list of customer names and emails  
- **So that** I can notify theme of marketing promotions 
+ **As a** [role]  
+ **I need** [function]  
+ **So that** [benefit]  
    
  ### Details and Assumptions
- * We maintain customer emails 
- * Customers have opted-in to promotions
+ * [document what you know]
    
  ### Acceptance Criteria  
    
  ```gherkin
- Given  there are 100 customers in the database 
- When I request the customer email list 
- Then I should see a list of 90 customer emails
+ Given [some context]
+ When [certain action is taken]
+ Then [the outcome of action is observed]
  ```
